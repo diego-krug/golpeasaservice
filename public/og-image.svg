@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0d1a2b" />
+      <stop offset="1" stop-color="#060b17" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.15" cy="0.15" r="0.45">
+      <stop offset="0" stop-color="#2cffdf" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#0d1a2b" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.85" cy="0.85" r="0.55">
+      <stop offset="0" stop-color="#2cffdf" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#060b17" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow1)" />
+  <rect width="1200" height="630" fill="url(#glow2)" />
+  <g fill="#2cffdf" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="80" y="230" font-size="82" font-weight="700">Golpe as a Service</text>
+    <text x="80" y="320" font-size="58" fill="#ecf4ff">Assine hoje, não receba amanhã.</text>
+    <text x="80" y="420" font-size="34" fill="#9db1cf">
+      O SaaS que já admite ser golpe e ainda cobra assinatura premium.
+    </text>
+  </g>
+  <rect x="80" y="450" width="420" height="80" rx="40" fill="#2cffdf" />
+  <text x="115" y="502" font-size="32" font-weight="600" fill="#080d1a" font-family="Inter, sans-serif">
+    Quero perder meu dinheiro agora
+  </text>
+</svg>
+
